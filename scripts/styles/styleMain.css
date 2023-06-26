@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:ital,wght@1,500&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Rubik:wght@500&display=swap');
+header {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {max-width: 100%;}
+.header--header{
+    display: flex;
+    justify-content: center;
+}
+.img--logo{
+    display: flex;
+    align-items: center;
+}
+.logo--stars{
+    width: 80px;
+    height: 100px;
+} 
+.h2--header{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.link--menu{
+    display: flex;
+    align-items: center;
+}
+.link--menu ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.li-links-menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+}
+.buttons{
+    margin-left: 20px;
+}
+.button--header{
+    border-style: none;
+    margin-left: 15px;
+    width: 50px;
+    height: 20px;
+}
+.button--header a{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+}
+.section--motivation{
+    width: 1440px;
+    margin: 0 auto;
+    /* background-color: #14151f */
+    background-color: #D8BFD8
+}
+.h2--motivation{
+    padding-top: 100px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: black;
+    width: 500px;
+}
+.reasons--motivation{
+    width: 460px;
+    height: 200px;
+}
+.ex--notIM{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(71, 119, 163);
+}
+.first--half{
+    width: 300px;
+}
+.first--half span{
+    font-family: 'Rubik', sans-serif;
+
+    color: rgb(71, 119, 163);
+}
+.reasonsAll{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.text--of--figure{
+    width: 1440px;
+    margin: 0 auto;
+}
+.text--section--fig{
+    font-size: 42px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.text--motivation{
+    margin-top: 50px;
+    margin-left: 325px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 800px;
+    padding-bottom: 50px;
+}
+.p--invite{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inviteToUs{
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url(https://thumb.tildacdn.com/tild3666-6439-4630-b433-376662613238/-/format/webp/photo.jpg);
+    background-size: 100% 800px;
+    height: 800px;
+}
+.h2--inviteName{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.h2--inviteNameTwo{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(71, 119, 163);
+}
+.soft-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D8BFD8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    margin-top: 50px;
+  }
+  
+  .soft-button:hover {
+    background-color: #BAA8BA;
+    transform: scale(1.05);
+  }
+  
+  .soft-button:active {
+    background-color: #A296A2;
+    transform: scale(0.95);
+  }
+.faq-section {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  
+  .faq-item h3 {
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .faq-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .faq-item:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+  }
+  .footer{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #D8BFD8;
+    padding-top: 50px;
+    height: 400px;
+}
+.footer--help{
+    display: flex;
+    justify-content: center; 
+}
+.first--halfOffooter {
+    width: 488px;
+}
+
+.secondHalf {
+    width: 488px;
+}
+.input--form{
+    width: 391px;
+    height: 63px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 14px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(71, 119, 163);
+}
+.button--footer{
+    width: 391px;
+    height: 57px;
+    background: rgb(71, 119, 163);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 40px;
+    color: #D8BFD8;
+}
+.news-list{
+    width: 1440px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 720px){
+    .section--motivation{
+        width: 200%;
+    }
+    .text--of--figure{
+        width: 200%;
+    }
+    .text--motivation{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .header--header{
+        width: 200%;
+    }
+    .inviteToUs{
+        width: 200%;
+        background-size: auto;
+    }
+    .faq-section{
+        width: 200%;
+    }
+    .footer{
+        width: 200%;
+    }
+    .h2--inviteNameTwo{
+        font-size: 24px;
+    }
+}
